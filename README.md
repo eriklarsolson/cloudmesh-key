@@ -18,7 +18,7 @@ see cloudmesh.cmd5
 Cloudmesh key is a command that generates public/private keys for each worker & gathers them on the master to redistribute back to each worker's authorized_keys in ssh. This will allow each worker to connect to every other worker and the master.
 
 ## Notes
-This tool uses ssh to each worker a lot and wants you to input your ssh password everytime you connect.
+This tool uses ssh to each worker a lot and wants you to input your ssh password each time you connect.
 
 You can get around this by using the ssh-add command.
 ```bash
